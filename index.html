@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="utf-8">
+    <title>Austin's Math thingamajigger</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <table class="caluculator">
+        <tbody>
+          <tr>
+            <td><input type="button" class="btn" id="buthov" onclick="c('')" value="C"></td>
+            <td><input type="text" class="button" id="display" readonly></td>
+          </tr>
+          <tr>
+            <td><input type="button" class="btn" onclick="math('7')" value="7"></td>
+            <td><input type="button" class="btn" onclick="math('8')" value="8"></td>
+            <td><input type="button" class="btn" onclick="math('9')" value="9"></td>
+            <td><input type="button" class="btn" id="func" onclick="math('/')" value="/"></td>
+          </tr>
+          <tr>
+            <td><input type="button" class="btn" onclick="math('4')" value="4"></td>
+            <td><input type="button" class="btn" onclick="math('5')" value="5"></td>
+            <td><input type="button" class="btn" onclick="math('6')" value="6"></td>
+            <td><input type="button" class="btn" id="func" onclick="math('*')" value="x"></td>
+          </tr>
+          <tr>
+            <td><input type="button" class="btn" onclick="math('3')" value="3"></td>
+            <td><input type="button" class="btn" onclick="math('2')" value="2"></td>
+            <td><input type="button" class="btn" onclick="math('1')" value="1"></td>
+            <td><input type="button" class="btn" id="func" onclick="math('-')" value="-"></td>
+          </tr>
+          <tr>
+            <td><input type="button" class="btn" onclick="math('0')" value="0"></td>
+            <td><input type="button" class="btn" onclick="math('.')" value="."></td>
+            <td><input type="button" class="btn" id="buthov" onclick="e()" value="="></td>
+            <td><input type="button" class="btn" id="func" onclick="math('+')" value="+"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  <script src="main.js"></script>
+  </body>
+</html>
