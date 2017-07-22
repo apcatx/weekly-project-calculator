@@ -7,35 +7,35 @@
   </head>
   <body>
     <div class="wrapper">
-      <table class="caluculator">
+      <table class="calculator">
         <tbody>
           <tr>
-            <td><input type="button" class="btn" id="buthov" onclick="c('')" value="C"></td>
-            <td><input type="text" class="button" id="display" readonly></td>
+            <td><button type="reset" class="num" id="clear" value="">C</button></td>
+            <td><input type="text" id="display" value=""></td>
           </tr>
           <tr>
-            <td><input type="button" class="btn" onclick="math('7')" value="7"></td>
-            <td><input type="button" class="btn" onclick="math('8')" value="8"></td>
-            <td><input type="button" class="btn" onclick="math('9')" value="9"></td>
-            <td><input type="button" class="btn" id="func" onclick="math('/')" value="/"></td>
+            <td><button type="button" class="num" id="seven" value="7">7</button></td>
+            <td><button type="button" class="num" id="eight" value="8">8</button></td>
+            <td><button type="button" class="num" id="nine" value="9">9</button></td>
+            <td><button type="button" class="calc" id="divide" value="/">/</button></td>
           </tr>
           <tr>
-            <td><input type="button" class="btn" onclick="math('4')" value="4"></td>
-            <td><input type="button" class="btn" onclick="math('5')" value="5"></td>
-            <td><input type="button" class="btn" onclick="math('6')" value="6"></td>
-            <td><input type="button" class="btn" id="func" onclick="math('*')" value="x"></td>
+            <td><button type="button" class="num" id="four" value="4">4</button></td>
+            <td><button type="button" class="num" id="five" value="5">5</button></td>
+            <td><button type="button" class="num" id="six" value="6">6</button></td>
+            <td><button type="button" class="calc" id="multiply" value="*">x</button></td>
           </tr>
           <tr>
-            <td><input type="button" class="btn" onclick="math('3')" value="3"></td>
-            <td><input type="button" class="btn" onclick="math('2')" value="2"></td>
-            <td><input type="button" class="btn" onclick="math('1')" value="1"></td>
-            <td><input type="button" class="btn" id="func" onclick="math('-')" value="-"></td>
+            <td><button type="button" class="num" id="three" value="3">3</button></td>
+            <td><button type="button" class="num" id="two" value="2">2</button></td>
+            <td><button type="button" class="num" id="one" value="1">1</button></td>
+            <td><button type="button" class="calc" id="subtract" value="-">-</button></td>
           </tr>
           <tr>
-            <td><input type="button" class="btn" onclick="math('0')" value="0"></td>
-            <td><input type="button" class="btn" onclick="math('.')" value="."></td>
-            <td><input type="button" class="btn" id="buthov" onclick="e()" value="="></td>
-            <td><input type="button" class="btn" id="func" onclick="math('+')" value="+"></td>
+            <td><button type="button" class="num" id="zero" value="0">0</button></td>
+            <td><button type="button" class="calc" id="decimal" value=".">.</button></td>
+            <td><button type="button" class="num" id="equals" value="=">=</button></td>
+            <td><button type="button" class="calc" id="add" value="+">+</button></td>
           </tr>
         </tbody>
       </table>

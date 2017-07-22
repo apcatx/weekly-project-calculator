@@ -19,21 +19,35 @@ td {
   padding: 0;
 }
 
-#buthov:hover {
-background-color: #82C276;
+#clear:hover {
+  background-color: #82C276;
+}
+#equals:hover {
+  background-color: #82C276;
 }
 
-#func:hover {
-  background-color: #82C276;
+#decimal {
   color: #FFFDFF;
+  background-color: #61B34F;
+
 }
 
-#func {
-  background-color: #82C276;
+.calc:hover {
   color: #426239;
 }
 
-.btn {
+
+.calc {
+  width: 100px;
+  height: 100px;
+  color: #FFFDFF;
+  background-color: #82C276;
+  border: #94d387 1px solid;
+  font-size: xx-large;
+  outline: 0;
+}
+
+.num {
   width: 100px;
   height: 100px;
   color: #FFFDFF;
@@ -43,7 +57,7 @@ background-color: #82C276;
   outline: 0;
 }
 
-#display {
+input {
   height: 96px;
   border: #94d387 1px solid;
   background-color: #61B34F;
