@@ -5,7 +5,7 @@ let divide = document.getElementById('divide');
 let clear = document.getElementById('clear');
 let equals = document.getElementById('equals');
 
-let evaluateArray = []; 
+let evaluateArray = [];
 
 let num = document.querySelectorAll('.num');
 
@@ -19,7 +19,6 @@ for (i = 0; i < num.length; i++) {
 
 add.addEventListener('click', function(stuff) {
   document.getElementById('display').value += '+';
-
   evaluateArray.push('+');
 });
 subtract.addEventListener('click', function(stuff) {
@@ -37,8 +36,8 @@ divide.addEventListener('click', function(stuff) {
 
 
 equals.addEventListener('click', function(stuff) {
-  var a = evaluateArray[0];
-  var b = evaluateArray[2];
+  let a = evaluateArray[0];
+  let b = evaluateArray[2];
   if (evaluateArray[1] === '+') {
     var results = a + b;
   } else if (evaluateArray[1] === '-') {
@@ -53,4 +52,5 @@ equals.addEventListener('click', function(stuff) {
 
 clear.addEventListener('click', function(stuff) {
   document.getElementById('display').value = '';
+  evaluateArray = [];
 });
